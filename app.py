@@ -5,8 +5,11 @@
 # =============================================================================
 
 import os, sys, time
+# pyrefly: ignore [missing-import]
 import numpy as np
+# pyrefly: ignore [missing-import]
 from PIL import Image, ImageOps
+# pyrefly: ignore [missing-import]
 import streamlit as st
 
 # Auto-detect Python 3.11 site-packages (portable across machines)
